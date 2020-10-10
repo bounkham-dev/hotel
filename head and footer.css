@@ -1,0 +1,275 @@
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 300px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #D3D3D3;
+    color: #000000;
+}
+
+.footer .title {
+    text-align: left;
+    color: black;
+    font-size: 25px;
+}
+
+.footer .social-icon {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer .social-icon a {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer .acount-icon a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer .acount-icon .fa {
+    margin-right: 25px;
+}
+
+.footer .category a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: transparent;
+    border: solid 1px black;
+}
+
+.footer .payment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none
+}
+
+.footer .payment li {
+    list-style-type: none
+}
+
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+hr {
+    border: 0 solid #000000;
+    border-top-width: 1px;
+    height: 0;
+    margin: 60px auto;
+    clear: both;
+    display: block;
+    width: auto;
+    position: relative;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+@media (min-width: 992px) .col-md-12 {
+    width: 100%;
+}
+
+@media (min-width: 992px) .col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9 {
+    float: left;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.login_box {
+    min-height: 300px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: ;
+    border-color: ;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.fblogin {
+    color: #fff;
+    background-color: #3E5B99;
+    padding: 0;
+    width: 100%;
+}
+
+.googlelogin {
+    color: #fff;
+    background-color: #ea0707;
+    padding: 0;
+    width: 100%;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #D3D3D3;
+    color: #000000;
+}
+
+.footer .title {
+    text-align: left;
+    color: black;
+    font-size: 25px;
+}
+
+.footer .social-icon {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer .social-icon a {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.footer .acount-icon a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer .acount-icon .fa {
+    margin-right: 25px;
+}
+
+.footer .category a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius: 4px;
+    margin-top: 6px;
+    background-color: transparent;
+    border: solid 1px black;
+}
+
+.footer .payment {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none
+}
+
+.footer .payment li {
+    list-style-type: none
+}
+
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+hr {
+    border: 0 solid #000000;
+    border-top-width: 1px;
+    height: 0;
+    margin: 60px auto;
+    clear: both;
+    display: block;
+    width: auto;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #ffffff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 300px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+h2 {
+    margin: auto;
+    padding: 20px;
+    width: 61.5%;
+    text-align: center;
+    background-color: #D3D3D3;
+    height: 80px;
+}
